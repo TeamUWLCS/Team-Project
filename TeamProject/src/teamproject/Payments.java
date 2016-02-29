@@ -63,6 +63,11 @@ public class Payments extends javax.swing.JFrame {
         PPbtn.setForeground(new java.awt.Color(255, 0, 51));
         PPbtn.setText("Previous Page");
         PPbtn.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(0, 255, 153)));
+        PPbtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                PPbtnActionPerformed(evt);
+            }
+        });
 
         jLabel3.setFont(new java.awt.Font("OCR A Extended", 0, 12)); // NOI18N
         jLabel3.setText("Card Holder Name:");
@@ -79,7 +84,7 @@ public class Payments extends javax.swing.JFrame {
         mkbtn.setText("Make Payment");
         mkbtn.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(0, 255, 153)));
 
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "01/10", "02/10", "03/10", "04/10", "05/10", "06/10", "07/10", "08/10", "09/10", "10/10", "11/11", "12/11", " " }));
 
         jLabel8.setFont(new java.awt.Font("OCR A Extended", 0, 12)); // NOI18N
         jLabel8.setText("Expires Date:");
@@ -87,7 +92,7 @@ public class Payments extends javax.swing.JFrame {
         jLabel9.setFont(new java.awt.Font("OCR A Extended", 0, 12)); // NOI18N
         jLabel9.setText("Valid From:");
 
-        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "01/11", "02/11", "03/11", "04/11", "05/11", "06/11", "07/11", "08/11", "09/11", "10/11", "11/11", "12/11", " " }));
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -184,6 +189,11 @@ public class Payments extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void PPbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PPbtnActionPerformed
+         Products l = new Products ();
+        l.setVisible(true); 
+    }//GEN-LAST:event_PPbtnActionPerformed
 
     /**
      * @param args the command line arguments

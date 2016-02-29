@@ -50,6 +50,11 @@ public class ContactUs extends javax.swing.JFrame {
         PPbtn.setForeground(new java.awt.Color(255, 0, 51));
         PPbtn.setText("Previous Page");
         PPbtn.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(0, 255, 153)));
+        PPbtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                PPbtnActionPerformed(evt);
+            }
+        });
 
         jLabel3.setFont(new java.awt.Font("OCR A Extended", 0, 12)); // NOI18N
         jLabel3.setText("Enter Full Name:");
@@ -138,6 +143,11 @@ public class ContactUs extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void PPbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PPbtnActionPerformed
+         HomePage k = new HomePage ();
+        k.setVisible(true); 
+    }//GEN-LAST:event_PPbtnActionPerformed
 
     
     public static void main(String args[]) {
