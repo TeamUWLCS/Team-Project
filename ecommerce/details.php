@@ -20,8 +20,8 @@ include("functions/functions.php");
 		<!--Header starts here-->
 		<div class="header_wrapper">
 		
-			<img id="logo" src="images/logo.gif" /> 
-			<img id="banner" src="images/ad_banner.gif" />
+			<a href="index.php"><img id="logo" src="images/logo.jpg" /> </a>
+			<img id="banner" src="images/banner.jpg" />
 		</div>
 		<!--Header ends here-->
 		
@@ -29,12 +29,12 @@ include("functions/functions.php");
 		<div class="menubar">
 			
 			<ul id="menu">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">All Products</a></li>
-				<li><a href="#">My Account</a></li>
-				<li><a href="#">Sign Up</a></li>
-				<li><a href="#">Shopping Cart</a></li>
-				<li><a href="#">Contact Us</a></li>
+				<li><a href="http://localhost/ecommerce/index.php">Home</a></li>
+				<li><a href="http://localhost/ecommerce/all_products.php">All Products</a></li>
+				<li><a href="http://localhost/ecommerce/customer/my_account.php">My Account</a></li>
+				<li><a href="http://localhost/ecommerce/customer_register.php">Sign Up</a></li>
+				<li><a href="http://localhost/ecommerce/cart.php">Shopping Cart</a></li>
+				<li><a href="http://localhost/ecommerce/contact.php">Contact Us</a></li>
 			
 			</ul>
 			
@@ -111,7 +111,7 @@ include("functions/functions.php");
 					
 					<img src='admin_area/product_images/$pro_image' width='400' height='300' />
 					
-					<p><b> $ $pro_price </b></p>
+					<p><b> £ $pro_price </b></p>
 					
 					<p>$pro_desc </p>
 					

@@ -123,7 +123,7 @@ if(isset($_GET['add_cart'])){
 		
 		}
 		
-		echo "$" . $total;
+		echo "£" . $total;
 		
 	
 	}
@@ -199,7 +199,7 @@ function getPro(){
 					
 					<img src='admin_area/product_images/$pro_image' width='180' height='180' />
 					
-					<p><b> Price: $ $pro_price </b></p>
+					<p><b> Price: £ $pro_price </b></p>
 					
 					<a href='details.php?pro_id=$pro_id' style='float:left;'>Details</a>
 					
@@ -252,7 +252,7 @@ function getCatPro(){
 					
 					<img src='admin_area/product_images/$pro_image' width='180' height='180' />
 					
-					<p><b> $ $pro_price </b></p>
+					<p><b> £ $pro_price </b></p>
 					
 					<a href='details.php?pro_id=$pro_id' style='float:left;'>Details</a>
 					
@@ -306,7 +306,7 @@ function getBrandPro(){
 					
 					<img src='admin_area/product_images/$pro_image' width='180' height='180' />
 					
-					<p><b> $ $pro_price </b></p>
+					<p><b> £ $pro_price </b></p>
 					
 					<a href='details.php?pro_id=$pro_id' style='float:left;'>Details</a>
 					

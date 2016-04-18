@@ -56,10 +56,10 @@
 ?>
 <h2 align="center" style="padding:2px;">Pay now with Paypal:</h2>
 
-<form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" >
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" >
 
 <!-- Identify your business so that you can collect the payments. -->
-<input type="hidden" name="business" value="sriniv_1293527277_biz@inbox.com">
+<input type="hidden" name="business" value="tetu2006@gmail.com">
 
 <!-- Specify a Buy Now button. -->
 <input type="hidden" name="cmd" value="_xclick">

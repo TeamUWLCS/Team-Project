@@ -29,7 +29,7 @@ include("functions/functions.php");
 		<div class="menubar">
 			
 			<ul id="menu">
-				<li><a href="index.php">Home</a></li>
+				<li><a href="index.php">http://localhost/ecommerce/index.php</a></li>
 				<li><a href="all_products.php">All Products</a></li>
 				<li><a href="customer/my_account.php">My Account</a></li>
 				<li><a href="#">Sign Up</a></li>
@@ -113,7 +113,7 @@ include("functions/functions.php");
 					
 					<img src='admin_area/product_images/$pro_image' width='180' height='180' />
 					
-					<p><b> $ $pro_price </b></p>
+					<p><b> £ $pro_price </b></p>
 					
 					<a href='details.php?pro_id=$pro_id' style='float:left;'>Details</a>
 					
@@ -138,7 +138,7 @@ include("functions/functions.php");
 		
 		<div id="footer">
 		
-		<h2 style="text-align:center; padding-top:30px;">&copy; 2014 by www.OnlineTuting.com</h2>
+		<h2 style="text-align:center; padding-top:30px;">&copy; UWL Store All rights Reseverd | Design by Md Nahain & Mohammed Basit</h2>
 		
 		</div>
 	
